@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Diego Cruz</title>
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo_large"
+        src="/assets/img/logos/large.png"
+        alt="largeLogo"
+      />
+      <h1>Diego Cruz</h1>
+      <hr class="lineBlue" />
+      <h2>Graphic designer and Web Developer</h2>
+      <video autoplay loop muted>
+        <source src="/assets/video/video.mp4" />
+      </video>
+    </header>
+    <nav id="navbar">
+      <div>
+        <a href="/">
+          <img
+            class="logo_small"
+            src="/assets/img/logos/small.png"
+            alt="smallLogo"
+          />
+          <span
+            >Diego Cruz <small>Graphic designer and Web Developer</small></span
+          >
+        </a>
+        <button id="Hamburger">☰</button>
+      </div>
+      <ul>
+        <li><a href="#portfolio">Design Portfolio</a></li>
+        <li><a href="#skillset">Skillset</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contac</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="welcome_section">
+        <button onClick="scroll(0, 100);" id="welcome_button">
+          <img src="/assets/img/design/welcome.png" alt="" />
+        </button>
+      </section>
+      <section id="data_diego">
+        <div class="data_conteiner">
+          <div class="how_conteiner">
+            <p>HOW</p>
+            <ul>
+              <li>I AM</li>
+              <li>I AM</li>
+              <li>I AM</li>
+            </ul>
+          </div>
+          <div class="info_conteiner">
+            <h3>Diego Trejo Cruz</h3>
+            <h1>ラック</h1>
+            <p>
+              Born in Toluca, State of Mexico in 1990. After graduating from
+              university with a degree in Graphic Design and working in the
+              design area for 5 years as a freelance, I decided to study web
+              development at the Kodemia and Academia X programming schools for
+              the passion that I have and to complement my career, this is some
+              of my work I hope you like it.
+            </p>
+            <img src="/assets/img/foto.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <h3>Design Portfolio</h3>
+        <hr class="lineBlue" />
+        <div class="designConteiner">
+          <img
+            class="illustration1"
+            data-aos="fade-right"
+            src="/assets/img/design/illustration1.jpg"
+            alt=""
+          />
+          <img
+            class="illustration2"
+            data-aos="fade-left"
+            src="/assets/img/design/illustration2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="illustration_tittle_conteiner">
+          <img
+            class="illustration_tittle"
+            src="/assets/img/design/tittle1.png"
+            alt=""
+          />
+        </div>
+        <img
+          class="illustration3"
+          data-aos="fade-up"
+          src="/assets/img/design/illustration3.jpg"
+          alt=""
+        />
+      </section>
+      <section class="Visual_identity_conteiner">
+        <h3>
+          Visual identity
+          <div class="loader">
+            <span class="loader__element"></span>
+            <span class="loader__element"></span>
+            <span class="loader__element"></span>
+          </div>
+        </h3>
+        <div class="identity_tittle">
+          <img class="pencil" src="/assets/img/design/pencil.png" alt="" />
+          <!--<div></div>
+              <img class="line" src="/assets/img/design/line.png" alt="" />-->
+        </div>
+        <div class="conteiner_logos">
+          <img src="/assets/img/design/logos/logo_domestica.png" alt="" />
+          <img src="/assets/img/design/logos/logo_tendedero.png" alt="" />
+          <img src="/assets/img/design/logos/logo_lucky.png" alt="" />
+          <img src="/assets/img/design/logos/logo_arte.png" alt="" />
+          <img src="/assets/img/design/logos/logo_crew.png" alt="" />
+          <img src="/assets/img/design/logos/logo_astra.png" alt="" />
+          <img src="/assets/img/design/logos/logo_magic.png" alt="" />
+          <img src="/assets/img/design/logos/logo_green.png" alt="" />
+          <img src="/assets/img/design/logos/logo_trabajando.png" alt="" />
+          <img src="/assets/img/design/logos/logo_leon.png" alt="" />
+          <img src="/assets/img/design/logos/logo_school.png" alt="" />
+          <img src="/assets/img/design/logos/logo_aries.png" alt="" />
+        </div>
+      </section>
+      <section id="skillset">
+        <h3>Skillset</h3>
+        <hr class="lineWhite" />
+        <div>
+          <div>
+            <img src="/assets/img/skillset/html.png" alt="skillHtml" />
+            <span class="tooltip">HTML</span>
+          </div>
+          <div>
+            <img src="/assets/img/skillset/css.png" alt="skillCss" />
+            <span class="tooltip">Css</span>
+          </div>
+          <div>
+            <img src="/assets/img/skillset/js.png" alt="skillJs" />
+            <span class="tooltip">Javascript</span>
+          </div>
+          <div>
+            <img src="/assets/img/skillset/react.png" alt="skillReact" />
+            <span class="tooltip">React</span>
+          </div>
+          <div>
+            <img src="/assets/img/skillset/node.png" alt="skillNode" />
+            <span class="tooltip">Node</span>
+          </div>
+          <div>
+            <img src="/assets/img/skillset/git.png" alt="skillGit" />
+            <span class="tooltip">Git</span>
+          </div>
+          <div>
+            <img
+              src="/assets/img/skillset/illustrator.png"
+              alt="skillIllustrator"
+            />
+            <span class="tooltip">Illustrator</span>
+          </div>
+          <div>
+            <img
+              src="/assets/img/skillset/photoshop.png"
+              alt="skillPhotoshop"
+            />
+            <span class="tooltip">Photoshop</span>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <h3>Experience</h3>
+        <hr class="lineWhite" />
+        <div>
+          <a>
+            <img src="" alt="experienceImg1" />
+            <h4>Work 1</h4>
+          </a>
+          <a>
+            <img src="" alt="experienceImg2" />
+            <h4>Work 2</h4>
+          </a>
+          <a>
+            <img src="" alt="experienceImg3" />
+            <h4>Work 3</h4>
+          </a>
+          <a>
+            <img src="" alt="experienceImg4" />
+            <h4>Work 4</h4>
+          </a>
+        </div>
+      </section>
+      <section id="contact">
+        <h3>Contact</h3>
+        <hr class="lineWhite" />
+        <form action="" method="POST">
+          <label>
+            Your email:
+            <input type="email" name="_replyto" />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+        <nav id="social-media">
+          <a href="https://www.google.com">
+            <img id="linkedin" src="/assets/img/social/linkedin.png" />
+          </a>
+          <a href="https://github.com">
+            <img id="github" src="/assets/img/social/github.png" />
+          </a>
+          <a href="https://www.behance.com">
+            <img id="behance" src="/assets/img/social/behance.png" />
+          </a>
+        </nav>
+      </section>
+    </main>
+    <footer>
+      <small
+        >Developed and designed by Diego Cruz. ©2023. All rights
+        reserved.</small
+      >
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
