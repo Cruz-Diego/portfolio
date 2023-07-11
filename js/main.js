@@ -1,4 +1,4 @@
-/*hamburguer button*/ 
+/*/*hamburguer button*/ 
 function deployMenu() {
     let navbar = document.querySelector('#navbar');
     let hamburgerBotton = document.querySelector('#Hamburger');
@@ -13,7 +13,7 @@ function scrollDown () {
     let welcome_button = document.querySelector('#welcome_button');
     welcome_button.addEventListener('click', () => {
         window.scroll({
-            top: 1635,
+            top: 1707,
             behavior: 'smooth'
           });
     });
