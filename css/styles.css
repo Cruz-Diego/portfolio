@@ -318,7 +318,49 @@ line-height: 1.9rem;
   height: 28rem;
   border-radius: 15px;
 }
-@media (min-width: 1px) and (max-width: 800px) {
+@media (min-width: 576px) and (max-width: 800px) {
+  #welcome_section {
+    height: 1227px;
+  }
+  #welcome_button img{
+    width: 6rem;
+  }
+  #data_diego {
+    height: 41rem;
+    padding-top: 1rem;
+  }
+  .data_conteiner{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    padding: 0rem .5rem;
+  }
+  .how_conteiner{
+    display: flex;
+  }  
+  .info_conteiner{
+    width: 24rem;
+  }
+  .how_conteiner{
+    font-size: 2.5rem;
+  }
+  .info_conteiner h3{
+    font-size: 1.6rem;
+  }
+  .info_conteiner h1{
+    font-size: 1.8rem;
+  }
+  .info_conteiner p{
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  line-height: 1.5rem;
+  }
+  .info_conteiner img{
+    width: 24rem;
+    height: 18.5rem;
+  }
+}
+@media (min-width: 1px) and (max-width: 575px) {
   #welcome_section {
     height: 1227px;
   }
@@ -332,12 +374,13 @@ line-height: 1.9rem;
   .data_conteiner{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     gap: 1.5rem;
     padding: 0rem .5rem;
   }
   .how_conteiner{
-    width: 146px;
+    display: flex;
+    justify-content: end;
   }  
   .info_conteiner{
     width: 19rem;
@@ -357,7 +400,7 @@ line-height: 1.9rem;
   line-height: 1.3rem;
   }
   .info_conteiner img{
-    width: 19.2rem;
+    width: 19rem;
     height: 15rem;
   }
 }
@@ -524,14 +567,14 @@ line-height: 1.9rem;
 .conteiner_logos img:nth-of-type(12) {
   width: 10rem;
 }
-@media (min-width: 799px) and (max-width: 940px) {
+@media (min-width: 660px) and (max-width: 968px) {
   .conteiner_logos {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     width: 40rem;
   }
 }
-@media (min-width: 1px) and (max-width: 800px) {
+@media (min-width: 1px) and (max-width: 659px) {
   .pencil {
     width: 1.5rem;
   }
