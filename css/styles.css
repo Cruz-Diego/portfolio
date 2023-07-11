@@ -122,13 +122,13 @@ section hr {
   margin-bottom: 5rem;
 }
 /*header*/
-header {
+header{
   padding: 5rem 0 3rem;
   position: relative;
   overflow: hidden;
   background: linear-gradient(var(--black), var(--black2));
 }
-header video {
+header video{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -136,6 +136,19 @@ header video {
   min-width: 100%;
   min-height: 100%;
   opacity: 0.2;
+}
+@media (min-width: 499px) and (max-width: 800px) {
+  .logo_large {
+    width: 16rem;
+  }  
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .logo_large {
+    width: 13rem;
+  }
+  header h2{
+    font-size: 1rem;
+  }
 }
 /*bar nav*/
 #navbar {
@@ -210,6 +223,11 @@ header video {
   top: 0;
   z-index: 100;
 }
+@media (min-width: 0px) and (max-width: 800px) {
+  nav span{
+    font-size: .9rem;
+  }
+}
 /*welcome section*/
 #welcome_section {
   width: 100%;
@@ -219,7 +237,6 @@ header video {
   justify-content: center;
   align-items: center;
 }
-
 #welcome_button {
   background-color: transparent;
   border: none;
@@ -301,16 +318,27 @@ line-height: 1.9rem;
   height: 28rem;
   border-radius: 15px;
 }
-@media (min-width: 0px) and (max-width: 783px) {
+@media (min-width: 0px) and (max-width: 800px) {
+  #welcome_section {
+    height: 1227px;
+  }
   #welcome_button img{
     width: 6rem;
   }
   #data_diego {
-    height: 42.5rem;
+    height: 44.6rem;
+    padding-top: 1rem;
   }
   .data_conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1.5rem;
     padding: 0rem 1rem;
   }
+  .how_conteiner{
+    width: 150px;
+  }  
   .info_conteiner{
     width: 25rem;
   }
@@ -384,6 +412,26 @@ line-height: 1.9rem;
 }
 .illustration3 {
   width: 46%;
+}
+@media (min-width: 0px) and (max-width: 800px) {
+  .lineBlue{
+    margin: 0;
+  }
+  .designConteiner {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+  }
+  .designConteiner img {
+    width: 100%;
+  }
+  .illustration_tittle {
+    width: 30%;
+  }
+  .illustration3 {
+    width: 90%;
+  }
 }
 /*logos_section*/
 .logos_section{
@@ -483,7 +531,7 @@ line-height: 1.9rem;
     width: 40rem;
   }
 }
-@media (min-width: 0px) and (max-width: 650px) {
+@media (min-width: 0px) and (max-width: 800px) {
   .conteiner_logos {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -574,7 +622,17 @@ line-height: 1.9rem;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
 }
-
+@media (min-width: 0px) and (max-width: 800px) {
+  #skillset h3{
+    margin-top: 15px;
+  }
+  .lineWhite{
+    margin: 2rem;
+  }
+  #skillset img {
+    max-width: 6rem;
+  }
+}
 /*experience*/
 #experience{
   background-color: rgb(228, 253, 253);
