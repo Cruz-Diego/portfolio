@@ -142,7 +142,7 @@ header video{
     width: 16rem;
   }  
 }
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 1px) and (max-width: 500px) {
   .logo_large {
     width: 13rem;
   }
@@ -318,7 +318,7 @@ line-height: 1.9rem;
   height: 28rem;
   border-radius: 15px;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 1px) and (max-width: 800px) {
   #welcome_section {
     height: 1227px;
   }
@@ -334,7 +334,7 @@ line-height: 1.9rem;
     flex-direction: column;
     align-items: end;
     gap: 1.5rem;
-    padding: 0rem 1rem;
+    padding: 0rem 2.5rem;
   }
   .how_conteiner{
     width: 150px;
@@ -524,54 +524,54 @@ line-height: 1.9rem;
 .conteiner_logos img:nth-of-type(12) {
   width: 10rem;
 }
-@media (min-width: 0px) and (max-width: 940px) {
+@media (min-width: 799px) and (max-width: 940px) {
   .conteiner_logos {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     width: 40rem;
   }
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 1px) and (max-width: 800px) {
   .conteiner_logos {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    width: 30rem;
+    width: 25rem;
   }
   .conteiner_logos img:nth-of-type(1) {
-    width: 13rem; 
+    width: 12rem; 
   }
   .conteiner_logos img:nth-of-type(2) {
-    width: 11rem; 
+    width: 10rem; 
   }
   .conteiner_logos img:nth-of-type(3) {
-    width: 11rem; 
+    width: 10rem; 
   }
   .conteiner_logos img:nth-of-type(4) {
-    width: 11rem;
+    width: 10rem;
   }
   .conteiner_logos img:nth-of-type(5) {
-    width: 9.6rem;
+    width: 8.6rem;
   }
   .conteiner_logos img:nth-of-type(6) {
-    width: 9rem;
+    width: 8rem;
   }
   .conteiner_logos img:nth-of-type(7) {
-    width: 9rem;
+    width: 8rem;
   }
   .conteiner_logos img:nth-of-type(8) {
-    width: 12rem;
-  }
-  .conteiner_logos img:nth-of-type(9) {
     width: 11rem;
   }
+  .conteiner_logos img:nth-of-type(9) {
+    width: 10rem;
+  }
   .conteiner_logos img:nth-of-type(10) {
-    width: 9rem;
+    width: 8rem;
   }
   .conteiner_logos img:nth-of-type(11) {
-    width: 13rem;
+    width: 12rem;
   }
   .conteiner_logos img:nth-of-type(12) {
-    width: 6rem;
+    width: 5rem;
   }
 }
 /*skillset*/
@@ -622,15 +622,19 @@ line-height: 1.9rem;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
 }
-@media (min-width: 0px) and (max-width: 800px) {
+@media (min-width: 1px) and (max-width: 800px) {
   #skillset h3{
     margin-top: 15px;
   }
   .lineWhite{
     margin: 2rem;
   }
+  #skillset > div {
+    grid-gap: .3rem;
+    margin: .1rem;
+  }
   #skillset img {
-    max-width: 6rem;
+    max-width: 5rem;
   }
 }
 /*experience*/
