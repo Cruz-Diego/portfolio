@@ -668,7 +668,7 @@ line-height: 1.9rem;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
 }
-@media (min-width: 1px) and (max-width: 800px) {
+@media (min-width: 1px) and (max-width: 659px) {
   #skillset h3{
     margin-top: 15px;
   }
@@ -683,9 +683,9 @@ line-height: 1.9rem;
     max-width: 4rem;
   }
   #skillset span {
-    width: 80px;
-    font-size: .7rem;
-    left: 68%;
+    width: 75px;
+    font-size: .6rem;
+    left: 76%;
   }
 }
 /*experience*/
