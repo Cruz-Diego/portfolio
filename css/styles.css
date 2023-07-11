@@ -326,7 +326,7 @@ line-height: 1.9rem;
     width: 6rem;
   }
   #data_diego {
-    height: 44.6rem;
+    height: 43.1rem;
     padding-top: 1rem;
   }
   .data_conteiner{
@@ -334,31 +334,31 @@ line-height: 1.9rem;
     flex-direction: column;
     align-items: end;
     gap: 1.5rem;
-    padding: 0rem 2.5rem;
+    padding: 0rem .5rem;
   }
   .how_conteiner{
-    width: 150px;
+    width: 146px;
   }  
   .info_conteiner{
-    width: 25rem;
+    width: 19rem;
   }
   .how_conteiner{
     font-size: 2.5rem;
   }
   .info_conteiner h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .info_conteiner h1{
     font-size: 1.5rem;
   }
   .info_conteiner p{
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   line-height: 1.3rem;
   }
   .info_conteiner img{
-    width: 25rem;
-    height: 20rem;
+    width: 19.2rem;
+    height: 15rem;
   }
 }
 /*design*/
