@@ -85,8 +85,8 @@ async function  handleSubmit(event){
     }
 }
 
-/**/ 
-function push() {
+/*lightbox gallery*/ 
+function lightboxOn() {
 document.querySelectorAll(".works_images_conteiner img").forEach(image => {
     image.onclick = () => {
         document.querySelector(".popup_img").style.display = "block";
@@ -94,11 +94,11 @@ document.querySelectorAll(".works_images_conteiner img").forEach(image => {
     }
 });
 }
-push(); 
+lightboxOn(); 
 
-function push2() {
+function lightboxOff() {
     document.querySelector(".popup_img span").onclick = () => {
         document.querySelector(".popup_img").style.display = "none";   
     }
 }
-push2();
+lightboxOff();
