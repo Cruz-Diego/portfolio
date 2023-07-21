@@ -84,3 +84,21 @@ async function  handleSubmit(event){
         alert("Thank you for contacting me, I will reply to you soon.")
     }
 }
+
+/**/ 
+function push() {
+document.querySelectorAll(".works_images_conteiner img").forEach(image => {
+    image.onclick = () => {
+        document.querySelector(".popup_img").style.display = "block";
+        document.querySelector(".popup_img img").src = image.getAttribute("src");
+    }
+});
+}
+push(); 
+
+function push2() {
+    document.querySelector(".popup_img span").onclick = () => {
+        document.querySelector(".popup_img").style.display = "none";   
+    }
+}
+push2();

@@ -3,30 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Montserrat&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Diego Cruz</title>
   </head>
   <body>
@@ -46,14 +34,8 @@
     <nav id="navbar">
       <div>
         <a href="/">
-          <img
-            class="logo_small"
-            src="/assets/img/logos/small.png"
-            alt="smallLogo"
-          />
-          <span
-            >Diego Cruz <small>Graphic designer and Web Developer</small></span
-          >
+          <img class="logo_small" src="/assets/img/logos/small.png" alt="smallLogo"/>
+          <span>Diego Cruz<small>Graphic designer and Web Developer</small></span>
         </a>
         <button id="Hamburger">☰</button>
       </div>
@@ -97,7 +79,7 @@
       </section>
       <section id="portfolio">
         <h3>Design Portfolio</h3>
-        <hr class="lineBlue"/>
+        <hr class="lineBlue" />
         <div class="designConteiner">
           <img
             class="illustration1"
@@ -146,6 +128,20 @@
           <img src="/assets/img/design/logos/logo_aries.png" alt="" />
         </div>
       </section>
+      <section class="works_section">
+        <div class="works_images_conteiner">
+          <div class="works_images"><img class="image" src="/assets/img/woks/1.jpg" alt=""></div>    
+          <div class="works_images"><img class="image" src="/assets/img/woks/2.jpg" alt=""></div>     
+          <div class="works_images"><img class="image" src="/assets/img/woks/1.jpg" alt=""></div>     
+          <div class="works_images"><img class="image" src="/assets/img/woks/1.jpg" alt=""></div>     
+          <div class="works_images"><img class="image" src="/assets/img/woks/1.jpg" alt=""></div>     
+          <div class="works_images"><img class="image" src="/assets/img/woks/1.jpg" alt=""></div>     
+          <div class="popup_img">
+            <span>&times;</span>
+            <img src="/assets/img/woks/1.jpg" alt="">    
+          </div>
+        </div>
+      </section>
       <section id="skillset">
         <h3>Skillset</h3>
         <hr class="lineWhite" />
@@ -175,11 +171,17 @@
             <span class="tooltip">Git</span>
           </div>
           <div>
-            <img src="/assets/img/skillset/illustrator.png" alt="skillIllustrator"/>
+            <img
+              src="/assets/img/skillset/illustrator.png"
+              alt="skillIllustrator"
+            />
             <span class="tooltip">Illustrator</span>
           </div>
           <div>
-            <img src="/assets/img/skillset/photoshop.png" alt="skillPhotoshop"/>
+            <img
+              src="/assets/img/skillset/photoshop.png"
+              alt="skillPhotoshop"
+            />
             <span class="tooltip">Photoshop</span>
           </div>
         </div>
@@ -212,7 +214,7 @@
         <form id="form" action="https://formspree.io/f/xvojovlr" method="POST">
           <label>
             Your email:
-            <input  name="Email" type="email">
+            <input name="Email" type="email" />
           </label>
           <label>
             Your message:
@@ -234,12 +236,9 @@
       </section>
     </main>
     <footer>
-      <small
-        >Developed and designed by Diego Cruz. ©2023. All rights
-        reserved.</small
-      >
+      <small>Developed and designed by Diego Cruz. ©2023. All rights reserved.</small>
     </footer>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
@@ -247,6 +246,6 @@
         duration: 1000,
         once: true,
       });
-    </script>
+      </script>
   </body>
 </html>
