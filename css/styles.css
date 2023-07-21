@@ -643,6 +643,10 @@ p {
   background-color: aqua;
   width: 100%;
 }
+.works_section h3 {
+  color: #545454;
+  font-size: 2.5rem;
+}
 .works_images_conteiner{
   display: flex;
   flex-wrap: wrap;
@@ -708,10 +712,6 @@ p {
   }
 }
 
-
-
-
-
 /*skillset*/
 #skillset {
   background-color: rgb(228, 253, 253);
@@ -760,8 +760,6 @@ p {
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.75) transparent transparent transparent;
 }
-
-
 @media (min-width: 1px) and (max-width: 550px) {
   #skillset > div {
     display: grid;
@@ -770,29 +768,9 @@ p {
     margin: 1rem;
   }
 }
-  /*#skillset h3 {
-    margin-top: 15px;
-  }
-  .lineWhite {
-    margin: 2rem;
-  }
-  #skillset > div {
-    grid-gap: 0.3rem;
-    margin: 0.1rem;
-  }
-  #skillset img {
-    max-width: 4rem;
-  }
-  #skillset span {
-    width: 75px;
-    font-size: 0.7rem;
-    top: -40%;
-    left: 77%;
-  }
-}*/
 /*experience*/
 #experience {
-  background-color: rgb(228, 253, 253);
+  background-color: aqua;
 }
 #experience img {
   background: white;
@@ -814,7 +792,7 @@ p {
 }
 /*contact*/
 #contact {
-  background-color: aqua;
+  background-color: rgb(228, 253, 253);;
 }
 form {
   font-size: 1.2rem;
@@ -868,8 +846,8 @@ form button:hover {
   background-color: #0077b5;
 }
 #github:hover {
-  background-color: #000000;
+  background-color: #0077b5;;
 }
 #behance:hover {
-  background-color: #0077b5;
+  background-color: #0077b5;;
 }
