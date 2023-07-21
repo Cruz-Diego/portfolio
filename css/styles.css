@@ -696,11 +696,18 @@ p {
   width: 750px;
   object-fit: cover;
 }
-@media (max-width: 768px){
-  .works_images_conteiner .popup_img img{
-    width: 95%;
+@media (min-width: 1px) and (max-width: 360px){
+  .works_images_conteiner .works_images .image{
+    width: 150px;
+    height: 100px;
   }
 }
+@media (min-width: 1px) and (max-width: 659px){
+  .works_images_conteiner .popup_img img{
+    width: 80%;
+  }
+}
+
 
 
 
