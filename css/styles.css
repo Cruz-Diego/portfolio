@@ -643,9 +643,31 @@ p {
   background-color: aqua;
   width: 100%;
 }
-.works_section h3 {
+.text_works h3{
   color: #545454;
   font-size: 2.5rem;
+  position: relative;
+  display: inline-block;
+  animation: text_jump 1s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+.text_works h3:nth-of-type(1){
+  animation: none;
+}
+.text_works h3:nth-of-type(2){
+  animation: none;
+  visibility: hidden;
+}
+@keyframes text_jump{
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40%,100% {
+    transform: translateY(0px);
+  }
 }
 .ccontent_works_container{
   position: absolute;
