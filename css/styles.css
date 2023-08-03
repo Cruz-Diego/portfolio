@@ -813,8 +813,8 @@ p {
 }
 #experience img {
   background: white;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   border: 5px solid var(--primary);
   border-radius: 25px;
   cursor: pointer;
