@@ -832,6 +832,11 @@ p {
 #contact {
   background-color: rgb(228, 253, 253);
 }
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 form {
   font-size: 1.2rem;
 }
@@ -847,7 +852,7 @@ input,
 textarea,
 input:focus,
 textarea:focus {
-  width: 100%;
+  width: 30rem;
   padding: 1rem;
   color: var(--black);
   border: none;
@@ -870,6 +875,12 @@ form button {
 }
 form button:hover {
   background-color: var(--secondary-dark);
+}
+@media (min-width: 1px) and (max-width: 500px) {
+  input,textarea,
+  input:focus,textarea:focus {
+    width: 80%;
+  }
 }
 #social-media img {
   border-radius: 10rem;
