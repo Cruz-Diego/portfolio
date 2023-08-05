@@ -193,14 +193,14 @@ header video {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding: 0;
   margin: 0;
-  visibility: hidden;
-  transition: max-height 0.3 ease;
+  max-height: 0px;
+  transition: max-height 0.3s ease;
   position: absolute;
   width: 100%;
   overflow: hidden;
 }
 #navbar.open ul {
-  visibility: visible;
+  max-height: 150px;
 }
 #navbar li {
   list-style: none;
@@ -654,7 +654,7 @@ p {
 .text_works h3:nth-of-type(2) {
   visibility: hidden;
 }
-.div_text_works{
+.div_text_works {
   display: none;
 }
 @keyframes text_jump {
@@ -741,7 +741,7 @@ p {
     font-size: 35px;
     margin: 0px 0px 20px 0px;
   }
-  .div_text_works{
+  .div_text_works {
     display: block;
   }
 }
@@ -832,12 +832,12 @@ p {
 #contact {
   background-color: rgb(228, 253, 253);
 }
-#form{
+#form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#form label{
+#form label {
   margin-top: 15px;
 }
 form {
@@ -880,8 +880,10 @@ form button:hover {
   background-color: var(--secondary-dark);
 }
 @media (min-width: 1px) and (max-width: 500px) {
-  input,textarea,
-  input:focus,textarea:focus {
+  input,
+  textarea,
+  input:focus,
+  textarea:focus {
     width: 80%;
   }
 }
