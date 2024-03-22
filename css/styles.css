@@ -728,7 +728,7 @@ p {
   transform: translate(-50%, -50%);
   border: 5px solid #ffffff;
   border-radius: 5px;
-  width: 630px;
+  width: 470px;
   object-fit: cover;
 }
 @media (min-width: 1px) and (max-width: 516px) {
