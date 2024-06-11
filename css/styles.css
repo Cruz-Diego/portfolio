@@ -753,7 +753,7 @@ p {
 
 /*skillset*/
 #skillset {
-  background-color: rgb(228, 253, 253);
+  background-color:  aqua;
 }
 #skillset > div {
   display: grid;
@@ -809,7 +809,7 @@ p {
 }
 /*experience*/
 #experience {
-  background-color: aqua;
+  background-color: rgb(228, 253, 253);
 }
 #experience img {
   background: white;
