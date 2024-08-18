@@ -250,7 +250,7 @@ header video {
 /*data diego*/
 #data_diego {
   width: 100%;
-  height: 82rem;
+  height: 68.5rem;
   background-color: rgb(228, 253, 253);
   /*display: none;*/
 }
@@ -314,7 +314,7 @@ p {
   }
 }
 .info_conteiner {
-  width: 43rem;
+  width: 36rem;
   display: flex;
   flex-direction: column;
   align-items: end;
@@ -333,11 +333,11 @@ p {
   line-height: 1.9rem;
 }
 .info_conteiner img {
-  width: 43rem;
-  height: 33rem;
+  width: 36rem;
+  height: 27rem;
   border-radius: 15px;
 }
-@media (min-width: 576px) and (max-width: 800px) {
+@media (min-width: 576px) and (max-width: 960px) {
   #welcome_section {
     height: 1227px;
   }
@@ -345,7 +345,7 @@ p {
     width: 6rem;
   }
   #data_diego {
-    height: 41rem;
+    height: 51rem;
     padding-top: 1rem;
   }
   .data_conteiner {
@@ -377,7 +377,7 @@ p {
     height: 18.5rem;
   }
 }
-@media (min-width: 1px) and (max-width: 575px) {
+@media (min-width: 1px) and (max-width: 663px) {
   #welcome_section {
     height: 1227px;
   }
@@ -385,7 +385,7 @@ p {
     width: 6rem;
   }
   #data_diego {
-    height: 65.2rem;
+    height: 53.5rem;
     padding-top: 1rem;
   }
   .data_conteiner {
